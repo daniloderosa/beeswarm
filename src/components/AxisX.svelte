@@ -4,6 +4,7 @@
     export let width;
 
     $: ticks = xScale.ticks(4);
+    console.log(width);
 </script>
 
 <g class="axis-x" transform="translate(0,{height})">
