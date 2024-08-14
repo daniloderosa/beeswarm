@@ -78,7 +78,7 @@
   });
 </script>
 
-<h1>The happiest countries in the world</h1>
+<h1>The Happiest Countries in the World</h1>
 <div class="chart-container" bind:clientWidth={width}>
   <svg {width} {height}>
     <g class="inner-chart" transform="translate({margin.left}, {margin.top})">
